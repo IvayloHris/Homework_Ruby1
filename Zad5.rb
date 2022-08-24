@@ -4,7 +4,7 @@ j = 0
 require 'csv'
 table = CSV.parse(File.read("cities.csv"), headers: false)
 
-puts "Write a valid city name"
+puts "Please write a valid city name."
 name = gets.chomp.to_s
 
 until table [i][j] == name
